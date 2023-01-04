@@ -1,0 +1,17 @@
+.circle {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  display: block;
+  border-radius: 50%;
+  opacity: 0.65;
+}
+
+@keyframes create {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
