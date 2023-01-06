@@ -15,7 +15,6 @@ Link para o vídeo: https://www.youtube.com/watch?v=qmZLWBOOfVQ&t=93s&ab_channel
 ## Informações
 - Nível de dificuldade: fácil
 - Tempo para finalização: 1h
-- Técnologia para criação do projeto: Vite
 
 ## Considerações
 
