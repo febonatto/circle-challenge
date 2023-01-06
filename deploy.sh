@@ -11,6 +11,6 @@ git checkout -B main
 git add -A
 git commit -m 'deploy'
 
-git push -f git@github.com:febonatto/febonatto.github.io.git main
+git push -f git@github.com:febonatto/circle-challenge.git main:gh-pages
 
 cd -
