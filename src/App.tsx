@@ -40,6 +40,7 @@ export function App() {
       ...circles,
       newCircle
     ]);
+    setRemovedCircles([]);
   }
 
   function undo() {
@@ -88,7 +89,7 @@ export function App() {
       </div>
       <div className="actions">
         <button type="button" onClick={() => undo()}>⏪</button>
-        <button type="button" onClick={() => redo()}>⏩</button>
+        <button type="button" onClick={() => redo()} disabled={removedCircles.length === 0}>⏩</button>
       </div>
     </>
   );
